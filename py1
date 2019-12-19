@@ -9,28 +9,3 @@ for a in range(0, 51):
         counter3 += 1
 print(f"niit {counter5} shirheg FIVE, {counter3} shirheg THREE baina")
 
-0=FIVE
-3=THREE
-5=FIVE
-6=THREE
-9=THREE
-10=FIVE
-12=THREE
-15=FIVE
-18=THREE
-20=FIVE
-21=THREE
-24=THREE
-25=FIVE
-27=THREE
-30=FIVE
-33=THREE
-35=FIVE
-36=THREE
-39=THREE
-40=FIVE
-42=THREE
-45=FIVE
-48=THREE
-50=FIVE
-niit 11 shirheg FIVE, 13 shirheg THREE baina
