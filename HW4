@@ -1,0 +1,19 @@
+# Өгөгдсөн текстэд том үсэг болон жижиг үсэг тус тус хэд байгааг олоод dictionary байдлаар үр дүнг буцаах функц бичнэ үү!
+
+def Con(m):
+    counter1 = 0
+    counter2 = 0
+    for n in m:
+        if n.islower:
+            low = print(f'{n} = lower')
+            counter1 += 1
+        if n.upper:
+            Upper = print(f'{n} = upper')
+            counter2 += 1
+        print(f'{counter1} shirheg lower letter baina')
+        print(f'{counter2} shirheg Upper letter baina')
+    return m
+
+
+a = input("garaas utga oruulna uu =")
+m = Con(a)
