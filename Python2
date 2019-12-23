@@ -1,0 +1,17 @@
+# 02::
+List01 = [1, 2, 5, 15, 6]
+List02 = [3, 4, 7, 11, 18]
+# mergedList = [2, 6, 3, 7, 11]
+mergedList = []
+
+for n in List01:
+    if n % 2 == 0:
+        mergedList.append(n)
+
+for n in List02:
+    if n % 2 == 0:
+        pass
+    else:
+        mergedList.append(n)
+
+print(mergedList)
